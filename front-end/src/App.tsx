@@ -1,5 +1,4 @@
 import * as React from 'react';
-import './App.css';
 import LoginForm from "./components/LoginForm";
 import {useContext, useEffect, useState} from "react";
 import {Context} from "./index";
