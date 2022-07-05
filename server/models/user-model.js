@@ -10,7 +10,7 @@ const UserSchema = new Schema({
     },
     password:{type:String,required: true},
     isActivated:{type:Boolean,default: false},
-    activationLInk:{type:String},
+    activationLink:{type:String},
 })
 
 
